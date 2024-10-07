@@ -33,7 +33,9 @@ export default function RootLayout({
       >
         <TopBanner url={TopBannerImage} alt="topbanner" title="top banner" />
         <Header/>
+        <div className="container mx-auto px-12">
         {children}
+        </div>
       </body>
     </html>
   );
